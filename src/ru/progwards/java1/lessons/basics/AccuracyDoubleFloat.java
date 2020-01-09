@@ -2,12 +2,13 @@ package ru.progwards.java1.lessons.basics;
 
 public class AccuracyDoubleFloat {
     public static double volumeBallDouble(double radius) {
-        return 4 / 3 * 3.14 * radius * radius * radius;
+        return 4 / (3 *3.14) * radius * radius*radius;
 
     }
 
     public static float volumeBallFloat(float radius) {
-        return 4 / 3 * 3.14f * radius * radius * radius;
+
+        return 4 / (3 * 3.14f) * radius* radius * radius;
     }
 
     public static double calculateAccuracy(double radius) {
